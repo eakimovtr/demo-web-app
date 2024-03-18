@@ -29,4 +29,28 @@
   	<servlet-name>pqr</servlet-name>
   	<url-pattern>/sq</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>hi</servlet-name>
+  	<servlet-class>com.egor.MyServlet</servlet-class>
+  	<init-param>
+  		<param-name>Name</param-name>
+  		<param-value>Sadig</param-value>
+  	</init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>hi</servlet-name>
+  	<url-pattern>/hi</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  	<param-name>Name</param-name>
+  	<param-value>Egor</param-value>
+  </context-param>
+  
+  <context-param>
+  	<param-name>Phone</param-name>
+  	<param-value>Samsung</param-value>
+  </context-param>
 </web-app>
